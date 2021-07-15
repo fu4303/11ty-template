@@ -1,0 +1,103 @@
+#_blog_post ol, 
+#_blog_post ul {
+    padding-left: 2em;
+    list-style: revert;
+}
+
+#_blog_post a{
+    text-decoration: underline;
+}
+
+#_post_date_info{
+    margin-top: 30px;
+}
+
+#published_date{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+#_read_time {
+    color: black;
+    font-weight: 200;
+}
+
+#_blog_postul ul{
+    margin-bottom: initial;
+}
+
+#_blog_post ul li > ul,
+#_blog_post ol li > ul,
+#_blog_post ul li > ol,
+#_blog_post ol li > ol{
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+#_blog_post table,
+#_blog_post tbody{
+    border-collapse: collapse;
+}
+
+#_blog_post th,
+#_blog_post td{
+    padding: 6px 13px;
+    border: 1px solid #e1e3e6;
+}
+
+#_blog_post tr:nth-child(2n){
+    background-color: #f6f8fa;
+}
+
+#_blog_post th{
+    font-size: .9em;
+    padding: 10px 13px;
+}
+
+#_post_tags,
+#_post_suggestions{
+    border-top: 1px solid #e1e3e6;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+#_blog_post code{
+    padding: 1px 4px;
+    display: inline-table;
+    border-radius: 3px;
+    margin-top: 1px;
+}
+
+#_blog_post pre{
+    margin-top: 8px;
+    padding: 1em 1.5em;
+    border-radius: 3px;
+}
+
+
+
+pre, code{
+    background: #edeff2;
+}
+
+#_blog_post li > label + pre{
+    margin-bottom: 0;
+}
+
+#_blog_post pre > code{
+    display: block;
+}
+
+#_blog_post pre > code[class^="language"]{
+    background: initial;
+    padding: initial;
+}
+
+
+
+#_post_suggestions ._span_bold{
+    font-weight: bold;
+}
+
+@import 'modules/syntax.module.scss';
